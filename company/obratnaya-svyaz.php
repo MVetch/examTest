@@ -12,7 +12,7 @@ $APPLICATION->SetTitle("Обратная связь");
 		"REQUIRED_FIELDS" => array(
 		),
 		"EVENT_MESSAGE_ID" => array(
-			0 => "29",
+			0 => "7",
 		)
 	),
 	false

@@ -15,12 +15,16 @@
                         ?>
                     <!-- /side menu -->
                     <!-- side anonse -->
-                    <div class="side-block side-anonse">
-                        <div class="title-block"><span class="i i-title01"></span>Полезная информация!</div>
-                        <div class="item">
-                            <p>Клиенты предпочитают все больше эко-материалов.</p>
-                        </div>
-                    </div>
+                    <?$APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "greenThing",
+                        Array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "sect",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "greenThing.php"
+                        )
+                    );?>
                     <!-- /side anonse -->
                     <!-- side wrap -->
                     <div class="side-wrap">

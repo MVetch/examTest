@@ -12,6 +12,6 @@ function AddElementOrSectionCode(&$arFields) {
    );
    
    if (strlen($arFields["NAME"])>0 && strlen($arFields["CODE"])<=0 && $arFields["IBLOCK_ID"] == 5) {
-      $arFields['CODE'] = CUtil::translit($arFields["NAME"], "ru", $params);    
+      $arFields['CODE'] = CUtil::translit($arFields["NAME"], "ru", $params).'['.time().']';    
    }
 }

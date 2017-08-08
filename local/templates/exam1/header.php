@@ -28,7 +28,7 @@ IncludeTemplateLangFile(__FILE__);
         <!-- header -->
         <header class="header">
             <div class="inner-wrap">
-                <div class="logo-block"><a href="" class="logo">Мебельный магазин</a>
+                <div class="logo-block"><a href="/" class="logo">Мебельный магазин</a>
                 </div>
                 <div class="main-phone-block">
                     <?if(date('H')>=9 && date('H')<18):?>

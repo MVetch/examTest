@@ -32,7 +32,7 @@
 		<?foreach($arItem['PROPERTY_DOCUMENTS_VALUE'] as $arItemDoc):?>
 			<div class="exam-review-item-doc">
 				<img class="rew-doc-ico" src="<?=SITE_TEMPLATE_PATH?>/img/icons/pdf_ico_40.png">
-				<a href="<?='/upload/'.$arItemDoc['SUBDIR'].'/'.$arItemDoc['FILE_NAME']?>"><?=$arItemDoc['ORIGINAL_NAME']?></a>
+				<a href="<?='/upload/'.$arItemDoc['SUBDIR'].'/'.$arItemDoc['FILE_NAME']?>" target="_blank"><?=$arItemDoc['ORIGINAL_NAME']?></a>
 			</div>
 		<?endforeach?>
 	</div>
